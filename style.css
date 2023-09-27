@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Konkhmer+Sleokchher&family=Noto+Sans+Khmer:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Poppins:wght@300&family=Roboto&family=Roboto+Slab:wght@600&family=Rubik&display=swap');
+h1,h2 , h3 ,p{
+    padding: 0;
+    margin: 0;
+}
+ul,li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.logo-bar{
+    background-color: #ffff ;
+    padding: 10px;
+}
+.logo{
+    margin: auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+}
+.search-box{
+    background-color: white;
+    border-radius: 7px;
+    height: 45px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 4px 0 dimgray;
+}
+.search-box input{
+    width: 90%;
+    outline: none;
+    border: none;
+}
+.search-box a{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.menu-bar{
+    background-color: #3498DB;
+}
+.menu{
+    margin: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    float: left;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.menu ul li a{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+.menu ul:nth-child(1) li.btn{
+    display: block ;
+}
+.menu ul:nth-child(1) li:not(.btn){
+    display: none;
+}
+.menu ul:nth-child(2) li.btn{
+    display: block;
+}
+.menu ul:nth-child(2) li:not(.btn){
+    display: none;
+}
+.title h1{
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: #F2F3F4 ;
+}
+.product{
+    height: 400px;
+    padding-top: 10px;
+}
+.product .item-box{
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0 rgba(105, 105, 105, 0.696);
+
+}
+.product .item-box:hover{
+    box-shadow: 1px 1px 7px 0 rgba(212, 119, 119, 0.696);
+}
+.product .item-box .img-box{
+    width: 100%;
+    height: 57%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.product .item-box .img-box img{
+    height: 70%;
+    object-fit: cover;
+}
+.product .item-box .img-box img:hover{
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+.product .item-box .txt-box{
+    float: left;
+    background-color: #ecececbf;
+    width: 100%;
+    height: 43%;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+.product .item-box .txt-box h1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.product .item-box .txt-box p{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.product .item-box .txt-box h2{
+    font-size: 22px;
+    color: rgb(238, 10, 10);
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+    font-weight: bold;
+}
+.product .item-box .txt-box .container{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 5px 5px;
+    background-color: #6B8E23;
+}
+.container .action-box1{
+    height: 40px;
+    display: flex;
+    text-align: center;
+    background-color: #FFA500;
+    border-radius: 0 0 0 5px;
+}
+.container .action-box1 a{
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+}
+.container .action-box2{
+    height: 40px;
+    display: flex;
+    text-align: center;
+    background-color: #3B5998;
+}
+.container .action-box2 a{
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+}
+.container .action-box3{
+    height: 40px;
+    display: flex;
+    text-align: center;
+    background-color: #6B8E23;
+    border-radius: 0 0 5px 0;
+}
+.container .action-box3 a{
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+}
+  
+footer{
+    margin-top: 20px;
+    padding-top:20px ;
+    padding-bottom: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    background-color: #3498DB;
+}
+.sec-AboutUs h2{
+    font-size: 18px;
+    color: white;
+
+}
+.sec-AboutUs p{
+    color: #A7D3EF;
+    font-size: 12px;
+}
+.sec-AboutUs ul{
+    margin: 0;
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding-left: 13px;
+}
+.sec-AboutUs ul li{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+.sec-AboutUs ul li a{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    font-size: 15px;
+    color: #3498DB;
+}
+.sec-Quicklinks h2{
+    font-size: 18px;
+    color: white;
+}
+
+.sec-Quicklinks ul{
+    padding: 0;
+    margin: 0;
+}
+.sec-Quicklinks ul li a{
+    color: #A7D3EF;
+    font-size: 12px;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    footer{
+        gap: 16px;
+    }
+    .sec-AboutUs h2{
+        font-size: 23px;
+    }
+    .sec-Quicklinks h2{
+        font-size: 23px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu ul:nth-child(1) li.btn{
+        display: none ;
+    }
+    .menu ul:nth-child(1) li:not(.btn){
+        display: block;
+    }
+    .menu ul:nth-child(2) li.btn{
+        display: none;
+    }
+    .menu ul:nth-child(2) li:not(.btn){
+        display: block;
+    }
+    .menu{
+        height: 75px;
+    }
+    .menu ul li a{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        text-transform: uppercase;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        font-family: 'Roboto Slab', serif;
+    }
+    footer{
+        gap: 100px;
+    }
+    .sec-AboutUs h2{
+        font-size: 20px;
+    }
+    .sec-Quicklinks h2{
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    footer{
+        gap: 200px;
+    }
+    .sec-AboutUs h2{
+        font-size: 23px;
+    }
+    .sec-Quicklinks h2{
+        font-size: 23px;
+    }
+    .sec-Quicklinks ul li a{
+        font-size: 15px;
+    }
+    .sec-AboutUs p{
+        font-size: 15px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
